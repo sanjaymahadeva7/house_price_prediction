@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 from tensorflow.keras.models import load_model
-import base64  # Import base64 module for encoding images
 
 # Load the saved Keras model
 model = load_model('prediction_model.keras')
